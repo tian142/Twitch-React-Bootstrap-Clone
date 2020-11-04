@@ -39,7 +39,10 @@ const TopNav = () => {
                 alt="Twitch Icon"
               />
             </Media>
-            <Navbar.Brand href="#Following" style={{ padding: '3px 15px' }}>
+            <Navbar.Brand
+              href="#Following"
+              style={{ padding: '3px 15px', color: 'red' }}
+            >
               Following
             </Navbar.Brand>
             <Nav.Link href="#home" style={{ padding: '7px 15px' }}>
